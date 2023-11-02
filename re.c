@@ -36,7 +36,7 @@ void ft_strcpy(char *s1, char *s2)
     s1[i] = '\0';
 }
 
-char *ft_string(char *str)
+char *ft_strdup(char *str)
 {
     char *s;
 
@@ -67,7 +67,7 @@ int main(int ac, char *av[])
 {
     char *str;
 
-    str = ft_string("youssef");
+    str = ft_strdup("youssef");
 
     printf("%s\n", str);
 
